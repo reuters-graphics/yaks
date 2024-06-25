@@ -7,6 +7,7 @@
   },
   "typedocOptions": {
     "entryPoints": ["index.ts"],
-    "readme": "HOME.md"
+    "readme": "HOME.md",
+    "sort": "required-first"
   }
 }
