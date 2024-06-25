@@ -15,11 +15,9 @@
     "configs/*.json"
   ],
   "scripts": {
-    "build:docs": "typedoc",
     "prepublishOnly": "publint"
   },
   "devDependencies": {
-    "typedoc": "^0.26.2",
     "typescript": "^5.5.2"
   },
   "peerDependencies": {

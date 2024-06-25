@@ -12,7 +12,6 @@
     "node": ">=18"
   },
   "scripts": {
-    "build:docs": "typedoc",
     "build:lib": "rollup --config rollup.config.js",
     "prepublishOnly": "npm run build:lib && publint"
   },

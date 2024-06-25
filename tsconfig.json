@@ -1,0 +1,15 @@
+{
+  "extends": "./packages/yaks-ts/configs/base.json",
+  "typedocOptions": {
+    "entryPoints": [
+      "packages/*",
+    ],
+    "name": "@reuters-graphics/yaks",
+    "entryPointStrategy": "packages",
+    "out": "docs",
+    "titleLink": "https://reuters-graphics.github.io/yaks/",
+    "navigationLinks": {
+      "GitHub": "https://github.com/reuters-graphics/yaks/"
+    },
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "extends": "@reuters-graphics/yaks-ts/typedoc",
+  "extends": "@reuters-graphics/yaks-ts/base",
   "include": ["src/*.ts"],
   "compilerOptions": {
     "outDir": "dist",
@@ -7,12 +7,6 @@
   },
   "typedocOptions": {
     "entryPoints": ["src/index.ts"],
-    "out": "./../../docs/yaks-eslint",
-    "titleLink": "https://reuters-graphics.github.io/yaks/yaks-eslint/",
-    "navigationLinks": {
-      "GitHub": "https://github.com/reuters-graphics/yaks/packages/yaks-eslint/",
-      "npm": "https://www.npmjs.com/package/@reuters-graphics/yaks-eslint/"
-    },
     "readme": "HOME.md"
   }
 }

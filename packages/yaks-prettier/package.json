@@ -13,7 +13,6 @@
     "dist/**"
   ],
   "scripts": {
-    "build:docs": "typedoc",
     "build:lib": "rollup --config rollup.config.js",
     "prepublishOnly": "npm run build:lib && publint"
   },
@@ -21,7 +20,6 @@
     "@reuters-graphics/yaks-rollup": "workspace:^",
     "@reuters-graphics/yaks-ts": "workspace:^",
     "rollup": "^4.18.0",
-    "typedoc": "^0.26.2",
     "typescript": "^5.5.2"
   },
   "peerDependencies": {

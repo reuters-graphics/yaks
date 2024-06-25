@@ -55,7 +55,7 @@ jobs:
       - id: build_docs
         name: Build docs
         if: steps.changesets.outputs.published == 'true'
-        run: pnpm --recursive build:docs
+        run: pnpm build:docs
 
       - id: commit_and_push
         name: Commit and push changes

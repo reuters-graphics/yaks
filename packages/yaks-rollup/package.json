@@ -12,13 +12,11 @@
     "default": "./dist/index.js"
   },
   "scripts": {
-    "build:docs": "typedoc",
     "build:lib": "tsc --project tsconfig.json",
     "prepublishOnly": "npm run build:lib && publint"
   },
   "devDependencies": {
     "@reuters-graphics/yaks-ts": "workspace:^",
-    "typedoc": "^0.26.2",
     "typescript": "^5.5.2"
   },
   "dependencies": {

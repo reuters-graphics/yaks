@@ -13,12 +13,10 @@
   ],
   "scripts": {
     "postinstall": "node ./scripts/install.js",
-    "build:docs": "typedoc",
     "prepublishOnly": "publint"
   },
   "devDependencies": {
     "@reuters-graphics/yaks-ts": "workspace:^",
-    "typedoc": "^0.26.2",
     "typescript": "^5.5.2"
   },
   "dependencies": {

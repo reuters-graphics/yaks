@@ -1,17 +1,11 @@
 {
-  "extends": "@reuters-graphics/yaks-ts/typedoc",
+  "extends": "@reuters-graphics/yaks-ts/base",
   "compilerOptions": {
     "outDir": "dist",
     "declarationDir": "dist"
   },
   "typedocOptions": {
     "entryPoints": ["src/index.ts"],
-    "out": "./../../docs/yaks-prettier",
-    "titleLink": "https://reuters-graphics.github.io/yaks/yaks-prettier/",
-    "navigationLinks": {
-      "GitHub": "https://github.com/reuters-graphics/yaks/packages/yaks-prettier/",
-      "npm": "https://www.npmjs.com/package/@reuters-graphics/yaks-prettier/"
-    },
     "readme": "HOME.md"
   }
 }

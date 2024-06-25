@@ -52,7 +52,7 @@ Basic config with typedoc. Extend it and then customise a few typedoc configurat
     "outDir": "dist",
     "declarationDir": "dist"
   },
-  "typedoc": {
+  "typedocOptions": {
     "entryPoints": ["src/index.ts"],
     "out": "docs",
     "titleLink": "https://reuters-graphics.github.io/your-project/",

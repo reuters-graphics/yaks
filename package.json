@@ -5,12 +5,15 @@
   "type": "module",
   "packageManager": "pnpm@9.4.0",
   "scripts": {
+    "build:docs": "typedoc",
     "changeset:version": "changeset version",
     "changeset:publish": "git add --all && changeset publish"
   },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.6",
-    "publint": "^0.2.8"
+    "publint": "^0.2.8",
+    "typedoc": "^0.26.2",
+    "typescript": "^5.5.2"
   }
 }

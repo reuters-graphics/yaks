@@ -1,14 +1,8 @@
 {
-  "extends": "@reuters-graphics/yaks-ts/typedoc",
+  "extends": "@reuters-graphics/yaks-ts/base",
   "include": ["index.ts"],
   "typedocOptions": {
     "entryPoints": ["index.ts"],
-    "out": "./../../docs/yaks-vscode",
-    "titleLink": "https://reuters-graphics.github.io/yaks/yaks-vscode/",
-    "navigationLinks": {
-      "GitHub": "https://github.com/reuters-graphics/yaks/packages/yaks-vscode/",
-      "npm": "https://www.npmjs.com/package/@reuters-graphics/yaks-vscode/"
-    },
     "readme": "HOME.md"
   }
 }
