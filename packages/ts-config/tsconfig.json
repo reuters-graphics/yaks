@@ -1,0 +1,13 @@
+{
+  "extends": "./configs/typedoc.json",
+  "typedocOptions": {
+    "entryPoints": ["index.ts"],
+    "out": "./../../docs/ts-config",
+    "titleLink": "https://reuters-graphics.github.io/yaks/ts-config/",
+    "navigationLinks": {
+      "GitHub": "https://github.com/reuters-graphics/yaks/packages/ts-config/",
+      "npm": "https://www.npmjs.com/package/@reuters-graphics/ts-config/"
+    },
+    "readme": "HOME.md"
+  }
+}

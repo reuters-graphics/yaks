@@ -1,0 +1,13 @@
+{
+  "name": "@reuters-graphics/yaks",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.6",
+    "publint": "^0.2.8"
+  }
+}

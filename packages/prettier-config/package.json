@@ -1,0 +1,25 @@
+{
+  "name": "@reuters-graphics/prettier-config",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "exports": "./dist/index.js",
+  "author": "Jon McClure <jon.r.mcclure@gmail.com>",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.js && typedoc src/index.ts",
+    "prepublishOnly": "npm run build && publint"
+  },
+  "devDependencies": {
+    "@reuters-graphics/rollup-config": "workspace:^",
+    "@reuters-graphics/ts-config": "workspace:^",
+    "rollup": "^4.18.0",
+    "typedoc": "^0.26.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.2"
+  }
+}

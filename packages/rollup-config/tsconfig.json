@@ -1,0 +1,18 @@
+{
+  "extends": "@reuters-graphics/ts-config/typedoc",
+  "include": ["*.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
+  "typedocOptions": {
+    "entryPoints": ["index.ts"],
+    "out": "./../../docs/rollup-config",
+    "titleLink": "https://reuters-graphics.github.io/yaks/rollup-config/",
+    "navigationLinks": {
+      "GitHub": "https://github.com/reuters-graphics/yaks/packages/rollup-config/",
+      "npm": "https://www.npmjs.com/package/@reuters-graphics/rollup-config/"
+    },
+    "readme": "HOME.md"
+  }
+}
