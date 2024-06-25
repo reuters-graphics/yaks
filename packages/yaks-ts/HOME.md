@@ -5,7 +5,7 @@ Shortcut for basic Typescript configs the way we like them at Reuters Graphics.
 Install.
 
 ```console
-npm i -D @reuters-graphics/yaks-ts
+npm i -D @reuters-graphics/yaks-ts typescript
 ```
 
 Create a `tsconfig.json` in your project and extend one of the given configs.
