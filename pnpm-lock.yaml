@@ -17,6 +17,9 @@ importers:
 
   packages/yaks-eslint:
     dependencies:
+      '@eslint/js':
+        specifier: ^9.5.0
+        version: 9.5.0
       eslint:
         specifier: ^9.5.0
         version: 9.5.0
@@ -26,10 +29,13 @@ importers:
       eslint-plugin-prettier:
         specifier: ^5.1.3
         version: 5.1.3(@types/eslint@8.56.10)(eslint-config-prettier@9.1.0(eslint@9.5.0))(eslint@9.5.0)(prettier@3.3.2)
+      globals:
+        specifier: ^15.6.0
+        version: 15.6.0
+      typescript-eslint:
+        specifier: ^7.14.1
+        version: 7.14.1(eslint@9.5.0)(typescript@5.5.2)
     devDependencies:
-      '@eslint/js':
-        specifier: ^9.5.0
-        version: 9.5.0
       '@reuters-graphics/yaks-prettier':
         specifier: workspace:^
         version: link:../yaks-prettier
@@ -42,9 +48,6 @@ importers:
       '@types/eslint__js':
         specifier: ^8.42.3
         version: 8.42.3
-      globals:
-        specifier: ^15.6.0
-        version: 15.6.0
       rollup:
         specifier: ^4.18.0
         version: 4.18.0
@@ -54,9 +57,6 @@ importers:
       typescript:
         specifier: ^5.5.2
         version: 5.5.2
-      typescript-eslint:
-        specifier: ^7.14.1
-        version: 7.14.1(eslint@9.5.0)(typescript@5.5.2)
 
   packages/yaks-prettier:
     dependencies:

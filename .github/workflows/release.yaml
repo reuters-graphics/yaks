@@ -37,6 +37,10 @@ jobs:
       - id: install
         name: Install dependencies
         run: pnpm i
+      
+      - id: build-packages
+        name: Build all packages
+        run: pnpm run -r build:lib
 
       - id: changesets
         name: Create Release Pull Request or Publish to npm

@@ -8,9 +8,9 @@ const defaultOptions = {
 };
 
 const getPlugins = (options: Options['plugins'] = {}) => ([
-  json(options.json || {}),
-  externals({ deps: true, ...(options.externals || {}) }),
-  typescript(options.typescript || {}),
+  json(options.json || undefined),
+  externals(options.externals || undefined),
+  typescript(options.typescript || undefined),
 ]);
 
 const defaultOutput = {
