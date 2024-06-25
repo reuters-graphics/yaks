@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-prettier
 
+## 0.0.3
+
+### Patch Changes
+
+- ff0e25a: Peer deps
+
 ## 0.0.2
 
 ### Patch Changes
