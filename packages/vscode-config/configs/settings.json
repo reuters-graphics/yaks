@@ -1,0 +1,16 @@
+{
+  "eslint.validate": ["javascript", "svelte", "jsx", "typescript"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "npm.packageManager": "npm",
+  "emmet.excludeLanguages": ["markdown", "scss"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "liveshare.launcherClient": "visualStudioCode",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
+}
