@@ -1,0 +1,26 @@
+{
+  "name": "@reuters-graphics/yaks-vscode",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "configs/*.json",
+    "scripts/install.js"
+  ],
+  "scripts": {
+    "postinstall": "node ./scripts/install.js",
+    "build:docs": "typedoc",
+    "prepublishOnly": "publint"
+  },
+  "devDependencies": {
+    "@reuters-graphics/yaks-ts": "workspace:^",
+    "typedoc": "^0.26.2"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  }
+}

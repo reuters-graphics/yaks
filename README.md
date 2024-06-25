@@ -4,10 +4,10 @@ Basic configs for common tools that should save a bit of time when setting up ne
 
 ![A yak in a barber's chair](./yak.png)
 
-| Tool       |                                                                            |
-| ---------- | -------------------------------------------------------------------------- |
-| VS Code    | [Read the docs.](https://reuters-graphics.github.io/yaks/vscode-config/)   |
-| Typescript | [Read the docs.](https://reuters-graphics.github.io/yaks/ts-config/)       |
-| Prettier   | [Read the docs.](https://reuters-graphics.github.io/yaks/prettier-config/) |
-| Rollup     | [Read the docs.](https://reuters-graphics.github.io/yaks/rollup-config/)   |
-| ESLint     | [Read the docs.](https://reuters-graphics.github.io/yaks/eslint-config/)   |
+| Tool       |                                                                          |
+| ---------- | ------------------------------------------------------------------------ |
+| VS Code    | [Read the docs.](https://reuters-graphics.github.io/yaks/yaks-vscode/)   |
+| Typescript | [Read the docs.](https://reuters-graphics.github.io/yaks/yaks-ts/)       |
+| Prettier   | [Read the docs.](https://reuters-graphics.github.io/yaks/yaks-prettier/) |
+| Rollup     | [Read the docs.](https://reuters-graphics.github.io/yaks/yaks-rollup/)   |
+| ESLint     | [Read the docs.](https://reuters-graphics.github.io/yaks/yaks-eslint/)   |

@@ -1,0 +1,18 @@
+{
+  "extends": "@reuters-graphics/yaks-ts/typedoc",
+  "include": ["*.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "dist"
+  },
+  "typedocOptions": {
+    "entryPoints": ["index.ts"],
+    "out": "./../../docs/yaks-rollup",
+    "titleLink": "https://reuters-graphics.github.io/yaks/yaks-rollup/",
+    "navigationLinks": {
+      "GitHub": "https://github.com/reuters-graphics/yaks/packages/yaks-rollup/",
+      "npm": "https://www.npmjs.com/package/@reuters-graphics/yaks-rollup/"
+    },
+    "readme": "HOME.md"
+  }
+}

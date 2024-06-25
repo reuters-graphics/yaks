@@ -1,0 +1,25 @@
+{
+  "name": "@reuters-graphics/yaks-ts",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    "./base": "./configs/base.json",
+    "./typedoc": "./configs/typedoc.json"
+  },
+  "files": [
+    "configs/*.json"
+  ],
+  "scripts": {
+    "build:docs": "typedoc",
+    "prepublishOnly": "publint"
+  },
+  "peerDependencies": {
+    "typedoc": "^0.26.2",
+    "typescript": "^5.5.2"
+  }
+}
