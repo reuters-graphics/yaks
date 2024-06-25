@@ -18,7 +18,8 @@
   },
   "devDependencies": {
     "@reuters-graphics/yaks-ts": "workspace:^",
-    "typedoc": "^0.26.2"
+    "typedoc": "^0.26.2",
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "deepmerge": "^4.3.1"
