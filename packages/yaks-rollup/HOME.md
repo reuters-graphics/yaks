@@ -1,4 +1,4 @@
-Shortcut for simple Rollup configs.
+Shortcut for simple Rollup configs the way we like them at Reuters Graphics.
 
 ## Quickstart
 

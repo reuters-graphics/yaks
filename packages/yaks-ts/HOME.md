@@ -1,4 +1,4 @@
-Shortcut for basic Typescript configs.
+Shortcut for basic Typescript configs the way we like them at Reuters Graphics.
 
 ## Quickstart
 

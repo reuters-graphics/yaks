@@ -1,14 +1,16 @@
+import type { Linter } from 'eslint';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 
-export default [
-  { files: ['**/*.{js,mjs,cjs,ts}'] },
+/**
+ * ESLint config object array for node projects (with Typescript)
+ */
+export const config = [
   {
     languageOptions: {
       globals: {
-        ...globals.browser,
         ...globals.nodeBuiltin,
       },
     },
@@ -16,4 +18,4 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
-];
+] as Linter.FlatConfig[];

@@ -1,4 +1,4 @@
-Shortcut for simple Prettier configs.
+Shortcut for simple Prettier configs the way we like them at Reuters Graphics.
 
 ## Quickstart
 
