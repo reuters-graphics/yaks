@@ -2,16 +2,10 @@ Shortcut for basic VS Code settings and extensions the way we like them at Reute
 
 ## Quickstart
 
-Install the package.
+Run the package directly using `npx` from the root of your project to copy config settings to your project's `.vscode/` directory. Settings will be merged with any existing VS Code settings you have.
 
 ```console
-npm i -D @reuters-graphics/yaks-vscode
-```
-
-Run the add command from the root of your project to copy the config settings to you `.vscode` directory. Settings will be merged with any existing VS Code settings you have.
-
-```console
-npx yaks-vscode
+npx @reuters-graphics/yaks-vscode
 ```
 
 ## Included config
