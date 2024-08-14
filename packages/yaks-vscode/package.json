@@ -4,6 +4,9 @@
   "private": false,
   "type": "module",
   "license": "MIT",
+  "bin": {
+    "yaks-vscode": "./scripts/install.js"
+  },
   "engines": {
     "node": ">=18"
   },
@@ -12,12 +15,11 @@
     "scripts/install.js"
   ],
   "scripts": {
-    "postinstall": "node ./scripts/install.js",
     "prepublishOnly": "publint"
   },
   "devDependencies": {
     "@reuters-graphics/yaks-ts": "workspace:^",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "deepmerge": "^4.3.1"

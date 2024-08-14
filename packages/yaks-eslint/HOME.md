@@ -15,7 +15,7 @@ Create an `eslint.config.js` file in the root of your project. Import a config f
 import { node } from '@reuters-graphics/yaks-eslint';
 
 /**
- * @type {import("eslint").Linter.FlatConfig[]}
+ * @type {import("eslint").Linter.Config[]}
  */
 export default [
   { files: ['src/**/*.{js,ts}'], ignores: ['docs/**/*'] },
