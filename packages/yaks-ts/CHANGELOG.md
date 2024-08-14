@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-ts
 
+## 0.0.4
+
+### Patch Changes
+
+- be019e0: Updates deps and vscode scripts
+
 ## 0.0.3
 
 ### Patch Changes

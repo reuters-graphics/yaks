@@ -1,6 +1,6 @@
 {
   "name": "@reuters-graphics/yaks-eslint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "exports": {
     "types": "./dist/index.d.ts",
