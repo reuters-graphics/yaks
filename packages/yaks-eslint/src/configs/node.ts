@@ -18,4 +18,4 @@ export const config = [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
-] as Linter.FlatConfig[];
+] as Linter.Config[];

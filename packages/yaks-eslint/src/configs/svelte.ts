@@ -21,4 +21,4 @@ export const config = [
   ...tseslint.configs.recommended,
   ...eslintPluginSvelte.configs['flat/prettier'],
   eslintPluginPrettierRecommended,
-] as Linter.FlatConfig[];
+] as Linter.Config[];

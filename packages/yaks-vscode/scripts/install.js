@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import merge from 'deepmerge';
