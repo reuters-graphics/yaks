@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-eslint
 
+## 0.0.5
+
+### Patch Changes
+
+- 7d9a8e5: Bumps svelte config for typescript
+
 ## 0.0.4
 
 ### Patch Changes
