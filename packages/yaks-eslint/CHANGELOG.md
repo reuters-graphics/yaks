@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-eslint
 
+## 0.0.6
+
+### Patch Changes
+
+- 1c9640d: TS override rules
+
 ## 0.0.5
 
 ### Patch Changes
