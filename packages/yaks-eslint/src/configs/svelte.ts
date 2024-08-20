@@ -5,6 +5,7 @@ import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import tsParser from '@typescript-eslint/parser';
+import { rules as tsOverrideRules } from './rules/typescript-eslint';
 
 /**
  * ESLint config object array for Svelte projects (with Typescript)
@@ -26,18 +27,5 @@ export const config = [
   ...tseslint.configs.recommended,
   ...eslintPluginSvelte.configs['flat/prettier'],
   eslintPluginPrettierRecommended,
-  {
-    rules: {
-      '@typescript-eslint/ban-ts-comment': [
-        'error',
-        {
-          'ts-ignore': 'allow-with-description',
-          'ts-expect-error': 'allow-with-description',
-          'ts-nocheck': true,
-          'ts-check': false,
-          minimumDescriptionLength: 3,
-        },
-      ],
-    },
-  },
+  tsOverrideRules,
 ] as Linter.Config[];
