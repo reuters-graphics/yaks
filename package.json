@@ -6,15 +6,18 @@
   "packageManager": "pnpm@9.4.0",
   "scripts": {
     "build:docs": "typedoc",
+    "test": "vitest run",
     "changeset:version": "changeset version",
     "changeset:publish": "git add --all && changeset publish"
   },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
+    "prettier": "^3.3.3",
     "publint": "^0.2.9",
     "rollup": "^4.20.0",
     "typedoc": "^0.26.5",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }

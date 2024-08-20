@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build:lib": "rollup --config rollup.config.js",
+    "test": "vitest run",
     "prepublishOnly": "npm run build:lib && publint"
   },
   "keywords": [],

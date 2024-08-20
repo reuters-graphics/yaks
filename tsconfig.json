@@ -1,5 +1,6 @@
 {
   "extends": "./packages/yaks-ts/configs/base.json",
+  "exclude": ["docs/**/*", "**/dist/**/*", "**/rollup.config.js", "**/scripts/install.js"],
   "typedocOptions": {
     "entryPoints": [
       "packages/*",
