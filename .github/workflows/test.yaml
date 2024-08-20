@@ -38,6 +38,10 @@ jobs:
         name: Install dependencies
         run: pnpm i
       
+      - id: build-packages
+        name: Build all packages
+        run: pnpm run -r build:lib
+      
       - id: test-packages
         name: Test all packages
         run: pnpm test
