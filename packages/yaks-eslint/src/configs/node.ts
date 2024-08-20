@@ -18,4 +18,18 @@ export const config = [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
+  {
+    rules: {
+      '@typescript-eslint/ban-ts-comment': [
+        'error',
+        {
+          'ts-ignore': 'allow-with-description',
+          'ts-expect-error': 'allow-with-description',
+          'ts-nocheck': true,
+          'ts-check': false,
+          minimumDescriptionLength: 3,
+        },
+      ],
+    },
+  },
 ] as Linter.Config[];
