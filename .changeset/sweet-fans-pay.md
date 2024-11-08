@@ -2,4 +2,4 @@
 '@reuters-graphics/yaks-vscode': patch
 ---
 
-Test workflow
+Test workflows
