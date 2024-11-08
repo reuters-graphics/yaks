@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-vscode
 
+## 0.0.6
+
+### Patch Changes
+
+- fbe1fbb: Workflow test
+
 ## 0.0.5
 
 ### Patch Changes
