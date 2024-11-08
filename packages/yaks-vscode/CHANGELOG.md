@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-vscode
 
+## 0.0.7
+
+### Patch Changes
+
+- 27480ed: Test workflows
+
 ## 0.0.6
 
 ### Patch Changes
