@@ -1,4 +1,4 @@
-import { getConfig } from '@reuters-graphics/yaks-rollup';
+import { getConfig } from '../yaks-rollup';
 
 export default [
   getConfig(),
