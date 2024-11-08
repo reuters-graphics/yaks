@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-vscode
 
+## 0.0.4
+
+### Patch Changes
+
+- 81c7619: Start using reusable workflows.
+
 ## 0.0.3
 
 ### Patch Changes
