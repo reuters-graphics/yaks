@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-vscode
 
+## 0.0.5
+
+### Patch Changes
+
+- ac6506a: Test workflow
+
 ## 0.0.4
 
 ### Patch Changes
