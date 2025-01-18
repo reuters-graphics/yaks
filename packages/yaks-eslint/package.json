@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build:lib": "rollup --config rollup.config.js",
-    "test": "vitest run",
+    "test": "vitest",
     "prepublishOnly": "npm run build:lib && publint"
   },
   "keywords": [],
@@ -26,19 +26,22 @@
     "@reuters-graphics/yaks-prettier": "workspace:^",
     "@reuters-graphics/yaks-rollup": "workspace:^",
     "@reuters-graphics/yaks-ts": "workspace:^",
-    "@types/eslint__js": "^8.42.3"
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.18.0",
+    "svelte": ">5.2.18",
+    "typescript": ">5.5.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.9.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-svelte": "^2.43.0",
-    "globals": "^15.9.0",
-    "typescript-eslint": "^8.1.0"
+    "@eslint/js": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
+    "eslint-plugin-svelte": "^2.46.1",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.20.0"
   },
   "peerDependencies": {
-    "eslint": "^9.9.0",
-    "svelte": "^4.2.18",
-    "typescript": "^5.5"
+    "eslint": "^9.18.0",
+    "svelte": ">5.2.18",
+    "typescript": ">5.5.0"
   }
 }

@@ -28,4 +28,14 @@ describe('Svelte config', () => {
     const { messages } = results[0];
     expect(messages[0].ruleId).toBe('@typescript-eslint/ban-ts-comment');
   });
+
+  it('Should allow legacy Svelte props', async () => {
+    const results = await linter.lintText(
+      loadTestCase('svelte-legacy.svelte'),
+      { filePath: 'test.svelte' }
+    );
+
+    const { messages } = results[0];
+    expect(messages.length).toBe(0);
+  });
 });

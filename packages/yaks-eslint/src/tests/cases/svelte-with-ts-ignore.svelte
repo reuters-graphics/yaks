@@ -1,6 +1,6 @@
 <script>
   // @ts-ignore
-  export let id;
+  let { id } = $props();
 </script>
 
 <div>{id}</div>

@@ -14,17 +14,19 @@
   ],
   "scripts": {
     "build:lib": "rollup --config rollup.config.js",
+    "test": "vitest",
     "prepublishOnly": "npm run build:lib && publint"
   },
   "devDependencies": {
     "@reuters-graphics/yaks-rollup": "workspace:^",
-    "@reuters-graphics/yaks-ts": "workspace:^"
+    "@reuters-graphics/yaks-ts": "workspace:^",
+    "prettier": "^3.4.2"
   },
   "peerDependencies": {
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.4"
+    "prettier": "^3.4.2",
+    "typescript": ">5.5.0"
   },
   "dependencies": {
-    "prettier-plugin-svelte": "^3.2.6"
+    "prettier-plugin-svelte": "^3.3.3"
   }
 }
