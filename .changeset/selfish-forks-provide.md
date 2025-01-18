@@ -3,4 +3,4 @@
 '@reuters-graphics/yaks-eslint': minor
 ---
 
-Svelte 5 configs added for eslint and prettier.
+Adds Svelte 5 configs for eslint and prettier.
