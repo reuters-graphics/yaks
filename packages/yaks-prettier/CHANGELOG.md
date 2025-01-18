@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-prettier
 
+## 0.1.0
+
+### Minor Changes
+
+- 41f0fd6: Adds Svelte 5 configs for eslint and prettier.
+
 ## 0.0.4
 
 ### Patch Changes
