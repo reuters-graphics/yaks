@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-ts
 
+## 0.0.5
+
+### Patch Changes
+
+- 455b240: Bumps dependencies
+
 ## 0.0.4
 
 ### Patch Changes
