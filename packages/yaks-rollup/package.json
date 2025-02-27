@@ -20,11 +20,11 @@
   },
   "dependencies": {
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-typescript": "^11.1.6",
-    "rollup-plugin-node-externals": "^7.1.2"
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup-plugin-node-externals": "^8.0.0"
   },
   "peerDependencies": {
-    "rollup": "^4.20.0",
-    "typescript": "^5.5.2"
+    "rollup": "^4.34.7",
+    "typescript": "^5.7.0"
   }
 }
