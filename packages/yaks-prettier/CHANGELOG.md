@@ -1,5 +1,11 @@
 # @reuters-graphics/yaks-prettier
 
+## 0.1.1
+
+### Patch Changes
+
+- 455b240: Bumps dependencies
+
 ## 0.1.0
 
 ### Minor Changes
